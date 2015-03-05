@@ -17,14 +17,20 @@ app.controller('HomeCtrl', function($scope, Navigate, $firebase, $firebaseArray)
     $scope.sessions = $firebaseArray(ref);
 
     $scope.sessions.$watch(function(event) {
-    	console.log("Sessoins loaded, reworking data.");
-    	$scope.sessionTimes = {};
+    	console.log("Sessions loaded, reworking data.");
+    	s = $scope.sessionTimes = {};
 	    // Organize the sessions into timeboxes
 	    for (var i = $scope.sessions.length - 1; i >= 0; i--) {
-	    	if(!$scope.sessionTimes[$scope.sessions[i].time] ) {
-	    		$scope.sessionTimes[$scope.sessions[i].time] = {"sessions":[]};
+	    	t = $scope.sessions[i].time;
+	    	if(!s[t] ) {
+	    		s[t] = {"sessions":[]};
 	    	}
-	    	$scope.sessionTimes[$scope.sessions[i].time].sessions.push($scope.sessions[i]);
+	    	$scope.sessions[i].order = $scope.tracks.indexOf($scope.sessions[i].track);
+	    	console.log("order of " + $scope.sessions[i].title + "/" + $scope.sessions[i].track + " is " + $scope.sessions[i].order);
+	    	s[t].sessions.push($scope.sessions[i]);
+	    	
+
+
 	    };
     });
 

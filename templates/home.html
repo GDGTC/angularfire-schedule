@@ -6,6 +6,18 @@ Feb 8th, 2014
     </div>
 </div>
 
+<div class='row panel-default'>
+    <div class='panel-heading'><strong>{{time}}</strong></div>
+    <div class='panel-body'>
+       <div class='col-md-2 center noroom' ng-repeat="track in tracks">
+            <div class="session {{track}}">
+                <img src="https://developers.google.com/apps/images/io_2013/track_android.png" style="width: 100px; margin: -20px;"/><hr /><div class='roomline'><span class='roomspan'></span></div>
+                {{trackNames[track]}}
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <div class='row panel-default' ng-repeat="(time,data) in sessionTimes | orderBy : time">
     <div class='panel-heading'><strong>{{time}}</strong></div>
@@ -28,11 +40,12 @@ Feb 8th, 2014
          <div class='panel-body' >
             
             <!--<div class='col-md-2 center noroom' ng-repeat="track in tracks">-->
-            <div class='col-md-2 center noroom' ng-repeat="session in data.sessions">
-                
+            <div class='col-md-2 center noroom' ng-repeat="session in data.sessions | orderBy:'order'">
                 <div class="session {{session.track}}">
-                    <img src="https://developers.google.com/apps/images/io_2013/track_android.png" style="width: 100px; margin: -20px;"/><hr /><div class='roomline'><span class='roomspan'></span></div>
                     {{session.title}}
+                    <hr />
+                    <div class='roomline'><span class='roomspan'>{{session.room}}</span></div>
+                    <span ng-repeat="speaker in session.speakers">{{speaker.name}}</span>
                 </div>
             </div>
         </div>

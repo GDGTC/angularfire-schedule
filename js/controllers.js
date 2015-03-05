@@ -36,15 +36,7 @@ app.controller('HomeCtrl',function($scope, Navigate) {
 			title: 'Apps for Android Wear',
 			description: 'Come and learn everything!',
 			room: 'Room 3',
-			track: 'android',
-			time: '8:45AM'
-		},
-		{
-			speakers: [{name:'Noah Blon', bio:'Bio',twitter:'@handle'} ],
-			title: 'Material Design / Front End',
-			description: 'Come and learn everything!',
-			room: 'Room 3',
-			track: 'android',
+			track: 'wearables',
 			time: '8:45AM'
 		},
 		{
@@ -52,7 +44,15 @@ app.controller('HomeCtrl',function($scope, Navigate) {
 			title: 'WebRTC Workshop',
 			description: 'Come and learn everything!',
 			room: 'Room 3',
-			track: 'android',
+			track: 'chrome',
+			time: '8:45AM'
+		},
+		{
+			speakers: [{name:'Noah Blon', bio:'Bio',twitter:'@handle'} ],
+			title: 'Material Design / Front End',
+			description: 'Come and learn everything!',
+			room: 'Room 3',
+			track: 'design',
 			time: '8:45AM'
 		},
 		{
@@ -60,7 +60,7 @@ app.controller('HomeCtrl',function($scope, Navigate) {
 			title: 'AngularJS Workshop',
 			description: 'Come and learn everything!',
 			room: 'Room 3',
-			track: 'android',
+			track: 'starting',
 			time: '8:45AM'
 		}
 

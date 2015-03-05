@@ -16,18 +16,48 @@ app.controller('HomeCtrl',function($scope, Navigate) {
     sessions =
     [
     	{
-			id: 3,
 			speakers: [{name:'Speaker Name', bio:'Bio',twitter:'@handle'}],
 			title: 'Check-in / Registration',
 			description: 'coffee & donuts',
 			room: 'Atrium',
 			track: 'general',
-			time: '8AM'
+			time: '8:00AM'
 		},
 		{
-			id: 3,
-			speakers: [{name:'Speaker Name', bio:'Bio',twitter:'@handle'} ],
-			title: 'Android Fun',
+			speakers: [{name:'Aaron Goldberg', bio:'Bio',twitter:'@handle'} ],
+			title: 'RecyclerView',
+			description: 'Come and learn everything!',
+			room: 'Room 3',
+			track: 'android',
+			time: '8:45AM'
+		},
+		{
+			speakers: [{name:'Brian Yencho', bio:'Bio',twitter:'@handle'} ],
+			title: 'Apps for Android Wear',
+			description: 'Come and learn everything!',
+			room: 'Room 3',
+			track: 'android',
+			time: '8:45AM'
+		},
+		{
+			speakers: [{name:'Noah Blon', bio:'Bio',twitter:'@handle'} ],
+			title: 'Material Design / Front End',
+			description: 'Come and learn everything!',
+			room: 'Room 3',
+			track: 'android',
+			time: '8:45AM'
+		},
+		{
+			speakers: [{name:'Ilya Verbitskiy', bio:'Bio',twitter:'@handle'} ],
+			title: 'WebRTC Workshop',
+			description: 'Come and learn everything!',
+			room: 'Room 3',
+			track: 'android',
+			time: '8:45AM'
+		},
+		{
+			speakers: [{name:'Stephen Fluin', bio:'Bio',twitter:'@handle'} ],
+			title: 'AngularJS Workshop',
 			description: 'Come and learn everything!',
 			room: 'Room 3',
 			track: 'android',

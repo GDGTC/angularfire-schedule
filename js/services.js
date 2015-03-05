@@ -1,6 +1,6 @@
 var services = angular.module('ScheduleServices', ['ngResource']);
 
-services.factory("Navigate",["$rootScope", "$location", "Analytics",
+services.factory("Navigate",["$rootScope", "$location", 
 	function($rootScope, $location, Analytics) {
 
 

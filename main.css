@@ -1,0 +1,82 @@
+/* Track Styling */
+.android.session, .android .roomspan  {
+background-color: rgb(153, 204, 0);
+}
+.wearables.session, .web .roomspan {
+background-color: rgb(2, 148, 199);
+color: white;
+}
+.chrome.session, .chrome .roomspan {
+background-color: rgb(255, 136, 0);
+color: white;
+
+}
+.design .session, .design .roomspan {
+ background-color: rgb(207, 74, 44);
+  color: white;
+}
+.all .session{
+  text-align: center;
+  background-color: lightyellow;
+  border: solid;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}.all .roomspan {
+  text-align: center;
+  background-color: lightyellow;
+}.noroom .roomspan{
+  display: none !important;
+}.session {
+  padding: 5px;
+  background-color: lightblue;
+  border-radius: 2px;
+  min-height: 110px;
+  text-align: center;
+  cursor: pointer;
+}.center{
+text-align: center;
+}.panel-default>.panel-heading {
+color: #333;
+background-color: #ddd;
+border-color: #ddd;
+}.navbar-nav > li > a {
+padding-top: 19px;
+padding-bottom: 5px;
+}#custom-tweet-button a {
+    display: block;
+    padding: 2px 5px 2px 20px;
+    background: url('https://twitter.com/favicons/favicon.ico') 1px center no-repeat;
+    border: 1px solid #ccc;
+  }.sponsors a img {
+height: 30px !important;
+width: auto;
+margin-left: 20px;
+}.col-md-12.short {
+height: 27px;
+overflow: hidden;
+margin-bottom: 3px;
+}
+.roomspan{
+position: relative;
+top: -0.5em;
+border: solid 1px white;
+border-radius: 4px;
+padding: 2px;
+}.roomline{
+height: 1px;
+background-color: rgba(255,255,255,.6);
+text-align: center;
+margin-top: -22px;
+margin-bottom: 20px;
+opacity: 48;
+}.addedsuccess {
+position: absolute;
+background-color: yellow;
+padding: 16px;
+border-radius: 11px;
+-webkit-transform: rotate(-30deg);
+margin-left: -12px;
+margin-top: 18px;
+font-weight: bold;
+text-transform: capitalize;
+}

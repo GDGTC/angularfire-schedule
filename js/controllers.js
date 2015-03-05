@@ -44,4 +44,5 @@ app.controller('HomeCtrl',function($scope, Navigate) {
     	}
     	$scope.sessionTimes[sessions[i].time].sessions.push(sessions[i]);
     };
+
 });

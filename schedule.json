@@ -1,11 +1,19 @@
 [
 	{
-		"speakers": [{"name":"Group", "bio":"bio","twitter":"@handle"}],
+		"speakers": [],
 		"title": "Check-in / Registration",
 		"description": "coffee & donuts",
 		"room": "Atrium",
 		"track": "general",
 		"time": "08:00AM"
+	},
+	{
+		"speakers": [{"name":"Martin Omander", "bio":"bio","twitter":"@handle"}],
+		"title": "Keynote",
+		"description": "Learn about the various Cloud products and how to choose the right one.",
+		"room": "Auditorium",
+		"track": "general",
+		"time": "08:30AM"
 	},
 	{
 		"speakers": [{"name":"Aaron Goldberg", "bio":"bio","twitter":"@handle"} ],
@@ -16,7 +24,7 @@
 		"time": "10:00AM"
 	},
 	{
-		"speakers": [{"name":"Brian Yencho", "bio":"bio","twitter":"@handle"} ],
+		"speakers": [{"name":"Brian Yencho", "bio":"bio","twitter":"@handle"},{"name":"Sean Weiser"} ],
 		"title": "Apps for Android Wear",
 		"description": "Come and learn everything!",
 		"room": "room 3",
@@ -49,46 +57,98 @@
 	},
 
 
+	{
+		"speakers": [{"name":"GDG-TC"}],
+		"title": "Lunch & Prizes",
+		"description": "Eat some delicious food and get a chance at winning prizes!",
+		"room": "Cafeteria",
+		"track": "general",
+		"time": "12:00PM"
+	},
+
+
 
 	{
-		"speakers": [{"name":"Andrew Reitz", "bio":"bio","twitter":"@handle"} ],
-		"title": "Getting Groovy on Android",
+		"speakers": [{"name":"Chris Davis", "bio":"bio","twitter":"@handle"} ],
+		"title": "Android Testing w/ Espresso",
 		"description": "Come and learn everything!",
 		"room": "room 3",
 		"track": "android",
-		"time": "11:00AM"
+		"time": "1:00PM"
 	},
 	{
-		"speakers": [{"name":"Christopher Black", "bio":"bio","twitter":"@handle"} ],
-		"title": "Analog Watch Face",
+		"speakers": [{"name":"Kenton Watson", "bio":"bio","twitter":"@handle"}, {"name":"Brendon Justin"} ],
+		"title": "Wearable-Integrated App",
 		"description": "Come and learn everything!",
 		"room": "room 3",
 		"track": "wearables",
-		"time": "11:00AM"
+		"time": "1:00PM"
 	},
 	{
-		"speakers": [{"name":"Paul Lundberg", "bio":"bio","twitter":"@handle"} ],
-		"title": "Containers / Cloud Platform",
+		"speakers": [{"name":"M A al-Kabir", "bio":"bio","twitter":"@handle"} ],
+		"title": "Security and Privacy",
 		"description": "Come and learn everything!",
 		"room": "room 3",
 		"track": "chrome",
-		"time": "11:00AM"
+		"time": "1:00PM"
 	},
 	{
-		"speakers": [{"name":"Lloyd Cledwyn", "bio":"bio","twitter":"@handle"} ],
-		"title": "Polymer",
+		"speakers": [{"name":"John Hendy", "bio":"bio","twitter":"@handle"} ],
+		"title": "Making Enterprise Data Friendly with Google Sheets",
 		"description": "Come and learn everything!",
 		"room": "room 3",
 		"track": "design",
-		"time": "11:00AM"
+		"time": "1:00PM"
 	},
 	{
-		"speakers": [{"name":"Patrick Fuentes", "bio":"bio","twitter":"@handle"} ],
-		"title": "Intro to Android",
+		"speakers": [{"name":"Paul Modderman", "bio":"bio","twitter":"@handle"} ],
+		"title": "Making Enterprise Data Friendly with Google Sheets",
 		"description": "Come and learn everything!",
 		"room": "room 3",
 		"track": "starting",
-		"time": "11:00AM"
+		"time": "1:00PM"
+	},
+
+
+	{
+		"speakers": [{"name":"Daniel Lew", "bio":"bio","twitter":"@handle"} ],
+		"title": "Android Dependencies",
+		"description": "Come and learn everything!",
+		"room": "room 3",
+		"track": "android",
+		"time": "2:00PM"
+	},
+	{
+		"speakers": [{"name":"Al Baker", "bio":"bio","twitter":"@handle"} ],
+		"title": "Reemo Wearable",
+		"description": "Come and learn everything!",
+		"room": "room 3",
+		"track": "wearables",
+		"time": "2:00PM"
+	},
+	{
+		"speakers": [{"name":"Mark Nutter", "bio":"bio","twitter":"@handle"} ],
+		"title": "Ditch CMS for Google Drive",
+		"description": "Come and learn everything!",
+		"room": "room 3",
+		"track": "chrome",
+		"time": "2:00PM"
+	},
+	{
+		"speakers": [{"name":"TBD", "bio":"bio","twitter":"@handle"} ],
+		"title": "",
+		"description": "Come and learn everything!",
+		"room": "room 3",
+		"track": "design",
+		"time": "2:00PM"
+	},
+	{
+		"speakers": [{"name":"Andrew Watson", "bio":"bio","twitter":"@handle"} ],
+		"title": "Android Libraries",
+		"description": "Come and learn everything!",
+		"room": "room 3",
+		"track": "starting",
+		"time": "2:00PM"
 	}
 
 

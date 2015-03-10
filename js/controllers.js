@@ -1,6 +1,6 @@
 var app = angular.module('ScheduleControllers', []);
 
-app.controller('HomeCtrl', function($scope, Navigate, $firebase, $firebaseArray) {
+app.controller('HomeCtrl', function($scope, Navigate, $firebase, $firebaseArray, $http) {
 	$scope.goto = Navigate.goto;
 
 	$scope.tracks = 
@@ -16,8 +16,11 @@ app.controller('HomeCtrl', function($scope, Navigate, $firebase, $firebaseArray)
     var ref = new Firebase("https://devfestmn.firebaseio.com/sessions");
     $scope.sessions = $firebaseArray(ref);
 
-    $scope.sessions.$watch(function(event) {
+    
+
+    reloadData = function(data) {
     	console.log("Sessions loaded, reworking data.");
+    	console.log($scope.sessions);
     	s = $scope.sessionTimes = {};
 	    // Organize the sessions into timeboxes
 	    for (var i = $scope.sessions.length - 1; i >= 0; i--) {
@@ -32,7 +35,19 @@ app.controller('HomeCtrl', function($scope, Navigate, $firebase, $firebaseArray)
 
 
 	    };
-    });
+	    console.log("Results in:");
+	    console.log($scope.sessionTimes);
+    }
+
+    //$http.get('firebase.json').then(reloadData);
+    //$scope.sessions.$watch(reloadData);
+
+
+    $http.get('schedule.json').success(function(data) {
+    	$scope.sessions = data;
+    	reloadData();
+	});
+
 
     
 });

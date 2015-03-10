@@ -1,95 +1,95 @@
-{
-    	"0":{
-			"speakers": [{"name":"Group", "bio":"bio","twitter":"@handle"}],
-			"title": "Check-in / Registration",
-			"description": "coffee & donuts",
-			"room": "Atrium",
-			"track": "general",
-			"time": "08:00AM"
-		},
-		"1":{
-			"speakers": [{"name":"Aaron Goldberg", "bio":"bio","twitter":"@handle"} ],
-			"title": "RecyclerView",
-			"description": "Come and learn everything!",
-			"room": "room 3",
-			"track": "android",
-			"time": "10:00AM"
-		},
-		"2":{
-			"speakers": [{"name":"Brian Yencho", "bio":"bio","twitter":"@handle"} ],
-			"title": "Apps for Android Wear",
-			"description": "Come and learn everything!",
-			"room": "room 3",
-			"track": "wearables",
-			"time": "10:00AM"
-		},
-		"3":{
-			"speakers": [{"name":"Ilya Verbitskiy", "bio":"bio","twitter":"@handle"} ],
-			"title": "WebRTC Workshop",
-			"description": "Come and learn everything!",
-			"room": "room 3",
-			"track": "chrome",
-			"time": "10:00AM"
-		},
-		"4":{
-			"speakers": [{"name":"Noah Blon", "bio":"bio","twitter":"@handle"} ],
-			"title": "Material Design / Front End",
-			"description": "Come and learn everything!",
-			"room": "room 3",
-			"track": "design",
-			"time": "10:00AM"
-		},
-		"5":{
-			"speakers": [{"name":"Stephen Fluin", "bio":"bio","twitter":"@handle"} ],
-			"title": "AngularJS Workshop",
-			"description": "Come and learn everything!",
-			"room": "room 3",
-			"track": "starting",
-			"time": "10:00AM"
-		},
+[
+	{
+		"speakers": [{"name":"Group", "bio":"bio","twitter":"@handle"}],
+		"title": "Check-in / Registration",
+		"description": "coffee & donuts",
+		"room": "Atrium",
+		"track": "general",
+		"time": "08:00AM"
+	},
+	{
+		"speakers": [{"name":"Aaron Goldberg", "bio":"bio","twitter":"@handle"} ],
+		"title": "RecyclerView",
+		"description": "Come and learn everything!",
+		"room": "room 3",
+		"track": "android",
+		"time": "10:00AM"
+	},
+	{
+		"speakers": [{"name":"Brian Yencho", "bio":"bio","twitter":"@handle"} ],
+		"title": "Apps for Android Wear",
+		"description": "Come and learn everything!",
+		"room": "room 3",
+		"track": "wearables",
+		"time": "10:00AM"
+	},
+	{
+		"speakers": [{"name":"Ilya Verbitskiy", "bio":"bio","twitter":"@handle"} ],
+		"title": "WebRTC Workshop",
+		"description": "Come and learn everything!",
+		"room": "room 3",
+		"track": "chrome",
+		"time": "10:00AM"
+	},
+	{
+		"speakers": [{"name":"Noah Blon", "bio":"bio","twitter":"@handle"} ],
+		"title": "Material Design / Front End",
+		"description": "Come and learn everything!",
+		"room": "room 3",
+		"track": "design",
+		"time": "10:00AM"
+	},
+	{
+		"speakers": [{"name":"Stephen Fluin", "bio":"bio","twitter":"@handle"} ],
+		"title": "AngularJS Workshop",
+		"description": "Come and learn everything!",
+		"room": "room 3",
+		"track": "starting",
+		"time": "10:00AM"
+	},
 
 
 
-		"21":{
-			"speakers": [{"name":"Andrew Reitz", "bio":"bio","twitter":"@handle"} ],
-			"title": "Getting Groovy on Android",
-			"description": "Come and learn everything!",
-			"room": "room 3",
-			"track": "android",
-			"time": "11:00AM"
-		},
-		"22":{
-			"speakers": [{"name":"Christopher Black", "bio":"bio","twitter":"@handle"} ],
-			"title": "Analog Watch Face",
-			"description": "Come and learn everything!",
-			"room": "room 3",
-			"track": "wearables",
-			"time": "11:00AM"
-		},
-		"23":{
-			"speakers": [{"name":"Paul Lundberg", "bio":"bio","twitter":"@handle"} ],
-			"title": "Containers / Cloud Platform",
-			"description": "Come and learn everything!",
-			"room": "room 3",
-			"track": "chrome",
-			"time": "11:00AM"
-		},
-		"24":{
-			"speakers": [{"name":"Lloyd Cledwyn", "bio":"bio","twitter":"@handle"} ],
-			"title": "Polymer",
-			"description": "Come and learn everything!",
-			"room": "room 3",
-			"track": "design",
-			"time": "11:00AM"
-		},
-		"25":{
-			"speakers": [{"name":"Patrick Fuentes", "bio":"bio","twitter":"@handle"} ],
-			"title": "Intro to Android",
-			"description": "Come and learn everything!",
-			"room": "room 3",
-			"track": "starting",
-			"time": "11:00AM"
-		}
+	{
+		"speakers": [{"name":"Andrew Reitz", "bio":"bio","twitter":"@handle"} ],
+		"title": "Getting Groovy on Android",
+		"description": "Come and learn everything!",
+		"room": "room 3",
+		"track": "android",
+		"time": "11:00AM"
+	},
+	{
+		"speakers": [{"name":"Christopher Black", "bio":"bio","twitter":"@handle"} ],
+		"title": "Analog Watch Face",
+		"description": "Come and learn everything!",
+		"room": "room 3",
+		"track": "wearables",
+		"time": "11:00AM"
+	},
+	{
+		"speakers": [{"name":"Paul Lundberg", "bio":"bio","twitter":"@handle"} ],
+		"title": "Containers / Cloud Platform",
+		"description": "Come and learn everything!",
+		"room": "room 3",
+		"track": "chrome",
+		"time": "11:00AM"
+	},
+	{
+		"speakers": [{"name":"Lloyd Cledwyn", "bio":"bio","twitter":"@handle"} ],
+		"title": "Polymer",
+		"description": "Come and learn everything!",
+		"room": "room 3",
+		"track": "design",
+		"time": "11:00AM"
+	},
+	{
+		"speakers": [{"name":"Patrick Fuentes", "bio":"bio","twitter":"@handle"} ],
+		"title": "Intro to Android",
+		"description": "Come and learn everything!",
+		"room": "room 3",
+		"track": "starting",
+		"time": "11:00AM"
+	}
 
 
-    }
+]
